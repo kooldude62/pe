@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #000000, #111827);
+  background: linear-gradient(to bottom, #000000, #0a0a0a);
   color: #f3f4f6;
 }
 
@@ -17,8 +17,8 @@ body {
 
 /* Header styles */
 header {
-  border-bottom: 1px solid #1f2937;
-  background: linear-gradient(to right, #000000, #111827, #000000);
+  border-bottom: 1px solid #1a1a1a;
+  background: linear-gradient(to right, #000000, #0a0a0a, #000000);
 }
 
 header .container {
@@ -115,36 +115,7 @@ section {
 }
 
 .bg-radial-gradient {
-  background: radial-gradient(circle 700px at 50% 50%, rgba(255, 255, 255, 0.1), transparent);
-}
-
-/* Typewriter effect */
-.typewriter {
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
+  background: radial-gradient(circle 700px at 50% 50%, rgba(255, 255, 255, 0.05), transparent);
 }
 
 /* Responsive design */
@@ -161,3 +132,4 @@ section {
     width: 100%;
   }
 }
+
